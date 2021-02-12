@@ -1,0 +1,25 @@
+* My new site
+
+This is the new site I created using =org-mode= and =org-publish=.
+Run the following elisp code before publishing.
+
+#+begin_src emacs-lisp
+(require 'ox-publish)
+(setq org-publish-project-alist
+      '(("org-notes"
+         :base-directory "./src/"
+         :base-extension "org"
+         :publishing-directory "./html/"
+         :recursive t
+         :publishing-function org-html-publish-to-html
+         :headline-levels 4
+         :auto-preamble t
+         :auto-sitemap t)
+        ("org-static"
+         :base-directory "./html/"
+         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
+         :publishing-directory "~/testing_html/"
+         :recursive t
+         :publishing-function org-publish-attachment)
+        ("org" :components ("org-notes" "org-static"))))
+#+end_src

@@ -42,7 +42,7 @@ isn't clear at all that all of the components in the figure
 present the same knot.
 
 [[https://mathoverflow.net/questions/53471/are-there-any-very-hard-unknots][source]]
-[[./img/_20210222_121106screenshot.png?raw=true]]
+[[./_20210222_121106screenshot.png]]
 
 It will be monumental to come up with a simpler distinguishing
 method. Due to its simplicity and complexity, knot theory is an
@@ -60,7 +60,7 @@ clearly different from the knot above. A reason is that it has
 two connected components instead of one.
 
 [[https://en.wikipedia.org/wiki/Hopf_link#/media/File:Buzanha_wachigai_mon.jpg][source]]
-[[./img/20210222_125009screenshot.png]]
+[[./20210222_125009screenshot.png]]
 
 Formally, this argument secretly uses a function
 =number-of-component= on the space of knots to the space of
@@ -91,7 +91,7 @@ knots. In this case, we say that our method is not a *complete*
 invariant.
 
 [[https://en.wikipedia.org/wiki/File:Trefoil_knot_left.svg][source]]
-[[./img/_20210222_131143screenshot.png]]
+[[./_20210222_131143screenshot.png]]
 
 The goal is now clear. We aim to find knot invariants that are
 both (more) efficient and (more) complete. A breakthrough was

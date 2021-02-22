@@ -42,7 +42,7 @@ isn't clear at all that all of the components in the figure
 present the same knot.
 
 [[https://mathoverflow.net/questions/53471/are-there-any-very-hard-unknots][source]]
-[[./img/_20210222_121106screenshot.png]]
+[[./img/_20210222_121106screenshot.png?raw=true]]
 
 It will be monumental to come up with a simpler distinguishing
 method. Due to its simplicity and complexity, knot theory is an

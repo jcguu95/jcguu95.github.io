@@ -1,3 +1,4 @@
 #+TITLE: Sitemap for project org-notes
 
-- [[file:index.org][Jin's Webpage]]
+- [[file:index.org][Jin's webpage]]
+- [[file:invariant.org][invariant]]

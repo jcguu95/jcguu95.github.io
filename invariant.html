@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-02-22 Mon 14:39 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="jcguu95" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org3c36cfe">Invariant as presentation of data&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3c36cfe" class="outline-2">
+<h2 id="org3c36cfe">Invariant as presentation of data&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ATTACH">ATTACH</span></span></h2>
+<div class="outline-text-2" id="text-org3c36cfe">
+<ul class="org-ul">
+<li>Redundant presentations</li>
+</ul>
+
+<p>
+Mathematics is of the bottom-up nature. As a result, objects of
+interest are often built up with primary concepts. This leads to
+a trivial yet worth-noting phenomenon, that descriptions of an
+object are often redundant. That is to say, one can often
+describe a single objects in multiple different ways. While this
+offers different perspectives, it could obscure the essence of an
+object.
+</p>
+
+<p>
+A recurring scheme in mathematics is to reduce such redundancy.
+The simplest example, perhaps, is the equation, in which two
+descriptions are available for the number \(2\).
+</p>
+
+<p>
+\[ 1 + 1 = 2. \]
+</p>
+
+<p>
+Examples also arise in many problems in topology and geometry.
+Knot theory, being the simplest yet nontrivial in particular, is
+a rich source. Indeed, a knot, which is just a band in our space,
+can be presented in various ways. Unlike the first example, it is
+however an intellectually (very) expensive process to determine
+which presentations describe the same object. For instance, it
+isn&rsquo;t clear at all that all of the components in the figure
+present the same knot.
+</p>
+
+<p>
+<a href="https://mathoverflow.net/questions/53471/are-there-any-very-hard-unknots">source</a>
+<img src="file:///home/jin/data/storage/+org/.attach/f5/409bee-ca73-4bd4-800f-485c248c3c5b/_20210222_121106screenshot.png" alt="_20210222_121106screenshot.png" />
+</p>
+
+<p>
+It will be monumental to come up with a simpler distinguishing
+method. Due to its simplicity and complexity, knot theory is an
+interesting subject in modern mathematics. Elementary as it
+seems, knot theory remains an active research area, and finds
+important applications to modern quantum
+physics <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup><sup>, </sup><sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup><sup>, </sup><sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup><sup>, </sup><sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>, post quantum
+cryptography <sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>, chemistry and biology.
+</p>
+
+<p>
+While some remains to find finer methods to reduce the complexity
+of a given knot, some others take a different approach by
+characterizing knots from another end. To understand this
+approach, consider the simplest instance, that the one below is
+clearly different from the knot above. A reason is that it has
+two connected components instead of one.
+</p>
+
+<p>
+<a href="https://en.wikipedia.org/wiki/Hopf_link#/media/File:Buzanha_wachigai_mon.jpg">source</a>
+<img src="file:///home/jin/data/storage/+org/.attach/f5/409bee-ca73-4bd4-800f-485c248c3c5b/_20210222_125009screenshot.png" alt="_20210222_125009screenshot.png" />
+</p>
+
+<p>
+Formally, this argument secretly uses a function
+<code>number-of-component</code> on the space of knots to the space of
+integers. The function tells us how many components the knot has,
+and so while it evaluates to different integers on two
+presentations, the two are known to be different. Similar
+integer-valued functions are ubiquitous in math. For example, the
+function <code>cardinality</code> distinguishes sets, and the function
+<code>dimension</code> of all sorts distinguish spaces or other objects
+(topological dimension of manifolds, cohomological dimension of
+groups, combinatorial dimension of algebraic varieties.. etc.)
+</p>
+
+<p>
+Two problems arise with this method. First of all, is this
+function easier to compute? Could it be almost as hard to compute
+as to determine the knot presentation? For instance, is it easy
+to tell that first knot presented above has only one component?
+Certainly, it is easier to know the number of components by
+tracing the strand, but it is not so easy as the complexity goes
+up. In such case, we say that our method is a (more) <b>efficient</b>
+invariant.
+</p>
+
+<p>
+The other problem: Does this function distinguishes different
+knots completely? Could it be the case that two different knots
+got evaluated to the same value? The answer is yes,
+unfortunately. Shown below, same as the first knot above, a
+trefoil knot has only one component. But they are different
+knots. In this case, we say that our method is not a <b>complete</b>
+invariant.
+</p>
+
+<p>
+<a href="https://en.wikipedia.org/wiki/File:Trefoil_knot_left.svg">source</a>
+<img src="file:///home/jin/data/storage/+org/.attach/f5/409bee-ca73-4bd4-800f-485c248c3c5b/_20210222_131143screenshot.png" alt="_20210222_131143screenshot.png" />
+</p>
+
+<p>
+The goal is now clear. We aim to find knot invariants that are
+both (more) efficient and (more) complete. A breakthrough was
+made by Carl F. Gauss, who found his Gauss linking integral via
+Gauss map around two centuries ago. Then knot theory hibernated
+for another century, only to find its next breakthrough in the
+end of the 19th century after the theory of fundamental groups
+was born out of hands of Henri Poincaré. There are a lot to be
+said about the fundamental groups, but the most enlightening and
+relevant part is that <b>it extended our notion of what an invariant
+could be</b>.
+</p>
+
+<p>
+Indeed, humans have used numbers as an, and perhaps the only,
+abstract device to describe objects for a very long time. The
+number of oranges in a bag, the size of a pita bread, the
+amplitude of an angle, the interest rate of an investment, the
+dimension of our space-time.. etc. However, the fundamental
+group, being an invariant of spaces, uses algebraic objects as
+abstract device. Such leap has led mathematicians to find finer
+invariants in various disciplines. For example, algebraic
+topologists refined their descriptions for spaces by using vector
+spaces, rings, or even higher algebras <sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>.
+</p>
+
+<p>
+<span class="underline">Theorem</span> Finite type nilpotent spaces X and Y are weakly
+equivalent if and only if the E<sup>&infin;</sup>-algebras C<sup>*</sup>(X) and
+C<sup>*</sup>(Y) are quasi-isomorphic.
+</p>
+
+<p>
+In the context of knot theory, such leap unexpectedly brought us
+the quantum invariants of knots, first originated from Vaughan
+Jones&rsquo; work on subfactors in the 80s <sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>. Peculiarly, Jones
+invariants take multivariate polynomials as values. Why such
+invariants exist wasn&rsquo;t clear until the late 80s <sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>. A whole
+quantum field theory about three-spaces is lurking behind the
+existence of Jones invariant.
+</p>
+
+<p>
+Quantum field theory follows the same line of thought in terms of
+producing invariants. That is, instead of taking numbers, a
+quantum field theory takes (higher) categories as
+values <sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup><sup>, </sup><sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>, which are yet another kinds of algebraic
+objects. The essential difference between higher categories and
+groups is that the former is of higher-dimensional and therefore
+has more space between its objects. This feature could allow us
+to not only assign invariants to the whole object, but also
+assign invariants to the inner structure of the objects. As a
+result, the invariant is more flexible and powerful, in the sense
+that it helps study objects alike to the original one as well.
+</p>
+
+<p>
+&#x2026;
+</p>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+Braid group, knot theory, and statistical mechanics
+II-[Chen-Ning Yang and M. L. Ge]
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
+Knots and physics-[Louis H. Kauffman]
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3">3</a></sup> <div class="footpara"><p class="footpara">
+The Geometry and Physics of Knots-[Michael Atiyah]
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.4" class="footnum" href="#fnr.4">4</a></sup> <div class="footpara"><p class="footpara">
+Gauge-Fields-Knots-and-Gravity-[Baez and Muniain]
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.5" class="footnum" href="#fnr.5">5</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://arxiv.org/abs/1010.2055">https://arxiv.org/abs/1010.2055</a>
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.6" class="footnum" href="#fnr.6">6</a></sup> <div class="footpara"><p class="footpara">
+Cochains and Homotopy Type-[Michael A. Mandell]
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.7" class="footnum" href="#fnr.7">7</a></sup> <div class="footpara"><p class="footpara">
+Knots, groups, subfactors and physics-[Vaughan Jones]
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.8" class="footnum" href="#fnr.8">8</a></sup> <div class="footpara"><p class="footpara">
+Quantum field theory and the Jones polynomial-[Edward
+Witten]
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.9" class="footnum" href="#fnr.9">9</a></sup> <div class="footpara"><p class="footpara">
+Topological quantum field theory-[Michael F. Atiyah]
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.10" class="footnum" href="#fnr.10">10</a></sup> <div class="footpara"><p class="footpara">
+On the Classification of Topological Field
+Theories-[Jacob Lurie]
+</p></div></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="author">Author: jcguu95</p>
+<p class="date">Created: 2021-02-22 Mon 14:39</p>
+</div>
+</body>
+</html>

@@ -1,3 +1,19 @@
+#+TITLE: Invariant
+#+AUTHOR: Jin
+#+DATE:
+#+EMAIL:
+#+OPTIONS: ':t *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t c:nil
+#+OPTIONS: creator:comment d:(not LOGBOOK) date:t e:t email:nil f:t inline:t
+#+OPTIONS: num:t p:nil pri:nil stat:t tags:t tasks:t tex:t timestamp:t toc:nil
+#+OPTIONS: todo:t |:t
+#+CREATOR:
+#+DESCRIPTION:
+#+EXCLUDE_TAGS: noexport
+#+KEYWORDS:
+#+LANGUAGE:
+#+SELECT_TAGS: export
+#+HTML_HEAD: <link rel="stylesheet" href="./style.css" />
+
 * Invariant as presentation of data                      :ATTACH:
 :PROPERTIES:
 :ID:       f5409bee-ca73-4bd4-800f-485c248c3c5b

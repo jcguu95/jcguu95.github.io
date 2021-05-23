@@ -18,11 +18,43 @@
 
 Welcome to Jin's website.
 
-** Teaching
-
 ** Research
 
-** Hobby
+  *Crane-Yetter theory in dimension two*
+
+  Crane-Yetter theory (a state-sum model parallel to Walker-Wang
+  model) is a fully extended TQFT. However, not until 2019 was
+  its categorical aspect investigated. In my work, I proved the
+  Crane-Yetter theory for all open surfaces are equivalent to a
+  type of explicitly constructed category, namely the categorical
+  centers of higher genera.
+
+  *$(q,t)$-deformation of knot amplitudes*
+
+  Quantum $6j$-symbols are numerical presentations of the
+  monoidal structures for $Rep(U_{q}\mathfrak{g})$. Their squares
+  seem to admit $(q,t)$-deformations by the numerical evidence
+  discovered by Shamil Shakirov and Semeon Arthamonov. We aim to
+  find a theoretic basis for such $(q,t)$-deformation.
+
+  *Matrix-valued symmetric Macdonald polynomials*
+
+  Alexander Kirillov and Pavel Etingof found a link between
+  Macdonald symmetric polynomials and the generalized traces of
+  (special) representations of quantum groups (type A) in the
+  90s. It is natural to consider all representations instead, and
+  ask for the properties of the corresponding matrix-valued
+  symmetric polynomials.
+
+** Teaching
+
++ Instructor. Summer 2018: Proficiency Algebra. Summer 2019:
+  Mathematical Thinking. Summer 2020: Fundamental Concepts of
+  Math. Summer 2021: Calculus IV with Applications.
+
++ Teaching Assistant. Fall 2018: Calculus B, R04 R05. Spring
+  2019: Advanced Linear Algebra, R01. Fall 2019: Calculus A, R40
+  R45. Spring 2020: Applied Algebra, R01.
 
 ** Essay
 

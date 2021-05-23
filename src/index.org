@@ -4,7 +4,7 @@
 #+EMAIL:
 #+OPTIONS: ':t *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t c:nil
 #+OPTIONS: creator:comment d:(not LOGBOOK) date:t e:t email:nil f:t inline:t
-#+OPTIONS: num:t p:nil pri:nil stat:t tags:t tasks:t tex:t timestamp:t toc:nil
+#+OPTIONS: num:t p:nil pri:nil stat:t tags:t tasks:t tex:dvipng timestamp:t toc:nil
 #+OPTIONS: todo:t |:t
 #+CREATOR:
 #+DESCRIPTION:
@@ -29,13 +29,13 @@ Welcome to Jin's website.
   type of explicitly constructed category, namely the categorical
   centers of higher genera.
 
-  *$(q,t)$-deformation of knot amplitudes*
+  *$(q,t)$ -deformation of knot amplitudes*
 
-  Quantum $6j$-symbols are numerical presentations of the
+  Quantum $6j$ -symbols are numerical presentations of the
   monoidal structures for $Rep(U_{q}\mathfrak{g})$. Their squares
-  seem to admit $(q,t)$-deformations by the numerical evidence
+  seem to admit $(q,t)$ -deformations by the numerical evidence
   discovered by Shamil Shakirov and Semeon Arthamonov. We aim to
-  find a theoretic basis for such $(q,t)$-deformation.
+  find a theoretic basis for such $(q,t)$ -deformation.
 
   *Matrix-valued symmetric Macdonald polynomials*
 

@@ -56,6 +56,6 @@ Welcome to Jin's website.
   2019: Advanced Linear Algebra, R01. Fall 2019: Calculus A, R40
   R45. Spring 2020: Applied Algebra, R01.
 
-** Essay
+** Essay :noexport:
 
 [[./invariant.org]]

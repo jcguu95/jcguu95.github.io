@@ -1,7 +1,8 @@
-* My new site
+* Doc
 
 This is the new site I created using =org-mode= and =org-publish=.
-Run the following elisp code before publishing.
+Run the following elisp code, and run =M-x org-publish= in the
+current file.
 
 #+begin_src emacs-lisp
 (require 'ox-publish)

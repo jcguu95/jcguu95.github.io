@@ -1,4 +1,4 @@
-#+TITLE: Jin's Webpage
+#+TITLE: Jin-Cheng Guu
 #+AUTHOR: Jin
 #+DATE:
 #+EMAIL:
@@ -14,13 +14,29 @@
 #+SELECT_TAGS: export
 #+HTML_HEAD: <link rel="stylesheet" href="./style.css" />
 
-* Welcome
 
-Welcome to Jin's website.
+#+ATTR_HTML: :width 175px
+#+ATTR_HTML: :alt profile-picture :title Profile Picture :align right
+[[file:profile.jpg]]
 
-** Research
+I am Jin, a 5th year math PhD student at Stony Brook University,
+advised by Alexander Kirillov. Here is my [[./doc/20211110-cv.pdf][CV]].
 
-  *Crane-Yetter theory in dimension two*
+* Research
+
+** Publications
+
++ [[https://arxiv.org/abs/2107.05914][Categorical Center of Higher Genera and 4D Factorization
+  Homology]], (preprint) arXiv:2107.05914
+
++ Explicit Factorization of a Categorical Center (joint with Ying
+  Hong Tham), (preprint) to appear.
+
++ 4D Shadow State Sum Invariant, (preprint) to appear.
+
+** Description
+
++ *Crane-Yetter theory in dimension two*
 
   Crane-Yetter theory (a state-sum model parallel to Walker-Wang
   model) is a fully extended TQFT. However, not until 2019 was
@@ -29,7 +45,7 @@ Welcome to Jin's website.
   type of explicitly constructed category, namely the categorical
   centers of higher genera.
 
-  *$(q,t)$ -deformation of knot amplitudes*
++ *$(q,t)$ -deformation of knot amplitudes*
 
   Quantum $6j$ -symbols are numerical presentations of the
   monoidal structures for $Rep(U_{q}\mathfrak{g})$. Their squares
@@ -37,7 +53,7 @@ Welcome to Jin's website.
   discovered by Shamil Shakirov and Semeon Arthamonov. We aim to
   find a theoretic basis for such $(q,t)$ -deformation.
 
-  *Matrix-valued symmetric Macdonald polynomials*
++ *Matrix-valued symmetric Macdonald polynomials*
 
   Alexander Kirillov and Pavel Etingof found a link between
   Macdonald symmetric polynomials and the generalized traces of
@@ -46,7 +62,7 @@ Welcome to Jin's website.
   ask for the properties of the corresponding matrix-valued
   symmetric polynomials.
 
-** Teaching
+* Teaching
 
 + Instructor. Summer 2018: Proficiency Algebra. Summer 2019:
   Mathematical Thinking. Summer 2020: Fundamental Concepts of
@@ -54,8 +70,7 @@ Welcome to Jin's website.
 
 + Teaching Assistant. Fall 2018: Calculus B, R04 R05. Spring
   2019: Advanced Linear Algebra, R01. Fall 2019: Calculus A, R40
-  R45. Spring 2020: Applied Algebra, R01.
+  R45. Spring 2020: Applied Algebra, R01. Fall 2021: Overview of
+  Calculus; Calculus A.
 
-** Essay :noexport:
-
-[[./invariant.org]]
+* Other                                                :noexport:

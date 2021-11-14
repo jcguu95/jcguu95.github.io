@@ -47,10 +47,10 @@ advised by Alexander Kirillov. Here is my [[./doc/20211110-cv.pdf][CV]].
 + *(q,t) -deformation of knot amplitudes*
 
   Quantum 6j-symbols are numerical presentations of the monoidal
-  structures for Rep(U_{q}\mathfrak{g}). Their squares seem to admit
-  (q,t)-deformations by the numerical evidence discovered by
-  Shamil Shakirov and Semeon Arthamonov. We aim to find a
-  theoretic basis for such (q,t)-deformation.
+  structures for the quantum group Rep(U_{q}(g)). Their squares seem
+  to admit (q,t)-deformations by the numerical evidence
+  discovered by Shamil Shakirov and Semeon Arthamonov. We aim to
+  find a theoretic basis for such (q,t)-deformation.
 
 + *Matrix-valued symmetric Macdonald polynomials*
 

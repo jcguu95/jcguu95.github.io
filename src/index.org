@@ -19,7 +19,7 @@
 [[file:profile.jpg]]
 
 I am Jin, a 5th year math PhD student at Stony Brook University,
-advised by Alexander Kirillov. Here is my [[./doc/20211110-cv.pdf][CV]].
+advised by Alexander Kirillov. Here is my [[./doc/cv.pdf][CV]].
 
 * Research
 

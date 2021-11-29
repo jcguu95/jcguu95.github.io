@@ -1,0 +1,56 @@
+#+TITLE: Jin-Cheng Guu
+#+AUTHOR: Jin
+#+EMAIL: jin-cheng.guu@stonybrook.edu
+#+OPTIONS: ':t *:t -:t ::t <:t \n:nil ^:t arch:headline author:t c:nil
+#+OPTIONS: creator:comment d:(not LOGBOOK) date:t e:t email:t f:t inline:t
+#+OPTIONS: num:nil p:nil pri:nil stat:t tags:t tasks:t tex:dvipng timestamp:t toc:nil
+#+OPTIONS: todo:t |:t
+#+CREATOR:
+#+DESCRIPTION:
+#+EXCLUDE_TAGS: noexport
+#+KEYWORDS:
+#+LANGUAGE:
+#+SELECT_TAGS: export
+#+HTML_HEAD: <link rel="stylesheet" href="./style.css" />
+
+[[./index.html][Home]] | [[./research.html][Research]] | [[./teaching.html][Teaching]]
+
+* Research
+
+** Publications
+
++ [[https://arxiv.org/abs/2107.05914][Categorical Center of Higher Genera and 4D Factorization
+  Homology]], (preprint) arXiv:2107.05914
+
++ [[https://arxiv.org/abs/2111.06919][Explicit Factorization of a Categorical Center]] (joint with Ying
+  Hong Tham), (preprint) arXiv:2111.06919
+
++ 4D Shadow State Sum Invariant, (preprint) to appear.
+
+** Description
+
++ *Crane-Yetter theory in dimension two*
+
+  Crane-Yetter theory (a state-sum model parallel to Walker-Wang
+  model) is a fully extended TQFT. However, not until 2019 was
+  its categorical aspect investigated. In my work, I proved the
+  Crane-Yetter theory for all open surfaces are equivalent to a
+  type of explicitly constructed category, namely the categorical
+  centers of higher genera.
+
++ *(q,t) -deformation of knot amplitudes*
+
+  Quantum 6j-symbols are numerical presentations of the monoidal
+  structures for the quantum group Rep(U_{q}(g)). Their squares seem
+  to admit (q,t)-deformations by the numerical evidence
+  discovered by Shamil Shakirov and Semeon Arthamonov. We aim to
+  find a theoretic basis for such (q,t)-deformation.
+
++ *Matrix-valued symmetric Macdonald polynomials*
+
+  Alexander Kirillov and Pavel Etingof found a link between
+  Macdonald symmetric polynomials and the generalized traces of
+  (special) representations of quantum groups (type A) in the
+  90s. It is natural to consider all representations instead, and
+  ask for the properties of the corresponding matrix-valued
+  symmetric polynomials.

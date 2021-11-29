@@ -15,16 +15,20 @@
 
 [[./index.html][Home]] | [[./research.html][Research]] | [[./teaching.html][Teaching]]
 
-#+ATTR_HTML: :width 175px
-#+ATTR_HTML: :alt profile-picture :title Profile Picture :align right
-[[file:profile.jpg]]
+* Teaching Experience
 
-I am a 5th year math PhD student at Stony Brook University,
-advised by Alexander Kirillov. Here is my [[./doc/cv.pdf][CV]].
+** Instructor
 
-+ Tensor Categories
-+ Categorical Invariant
-+ Low-dimensional Topology
-+ Topological Quantum Field Theory
++ Calculus IV with Applications (Online) | Summer 2021
++ Fundamental Concepts of Math | Summer 2020
++ Mathematical Thinking | Summer 2019
++ Proficiency Algebra | Summer 2018
 
-* Other                                                :noexport:
+** Teaching Assistant
+
++ Overview of Calculus | Fall 2021
++ Calculus A | Fall 2021
++ Applied Algebra | Spring 2020
++ Calculus A | Fall 2019
++ Advanced Linear Algebra | Spring 2019
++ Calculus B | Fall 2018

@@ -38,8 +38,8 @@
   In [3], we showed that the Crane-Yetter invariant for closed
   4-manifolds coincide with the shadow invariant (a la V.
   Turaev). In [2], we use the idea from Crane-Yetter theory to
-  explicitly construct the inverse functor of the natural one $C^{2}
-  \to Z(C)$ from the square of a modular category to its Drinfeld
+  explicitly construct the inverse functor of the natural one C^{2}
+  \to Z(C) from the square of a modular category to its Drinfeld
   center.
 
   In dimension 2, it provides invariants for the underlying

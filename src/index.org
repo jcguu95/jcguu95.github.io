@@ -19,7 +19,7 @@
 #+ATTR_HTML: :alt profile-picture :title Profile Picture :align right
 [[file:profile.jpg]]
 
-I am a 5th year math PhD student at Stony Brook University,
+I am a 6th year math PhD student at Stony Brook University,
 advised by Alexander Kirillov. Here is my [[./doc/cv.pdf][CV]].
 
 + Tensor Categories

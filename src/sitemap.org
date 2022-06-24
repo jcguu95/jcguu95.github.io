@@ -1,5 +1,5 @@
 #+TITLE: Sitemap for project org-notes
 
 - [[file:index.org][Jin-Cheng Guu]]
-- [[file:research.org][research]]
-- [[file:teaching.org][teaching]]
+- [[file:teaching.org][Jin-Cheng Guu]]
+- [[file:research.org][Jin-Cheng Guu]]

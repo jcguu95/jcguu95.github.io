@@ -1,3 +1,8 @@
+* Deprecated
+
+I no longer use github and org-mode to host my website starting
+[2022-10-23]. You can find my new website [[https://sites.google.com/view/jin-cheng--guu][here]].
+
 * Doc
 
 This is the new site I created using =org-mode= and =org-publish=.
